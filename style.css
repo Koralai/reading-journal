@@ -1,0 +1,138 @@
+/*Color scheme based on "Solarized" by Ethan Schoonover, using the "Solarized Cheat Sheet" found here:
+http://www.zovirl.com/2011/07/22/solarized_cheat_sheet/*/
+
+html, body, header, footer, nav, span, h1, h2, h3, h4, h5, h6, hr, strong, div, img {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: 400;
+  font-family: 'Martel', Georgia, serif;
+  color: #657b83;
+}
+
+body {
+  background-color: #fdf6e3;
+}
+
+::selection {
+  background: #eee8d5; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #eee8d5; /* Gecko Browsers */
+}
+
+h1 {
+  font-size: 300%;
+  color: #586e75;
+}
+
+h2 {
+  font-size: 175%;
+}
+
+h3 {
+  font-size: 125%;
+}
+
+h4 {
+  font-size: 125%;
+}
+
+h5 {
+  font-size: 115%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+}
+
+hr {
+  height: 1px;
+  border: 0px;
+  background: #93a1a1;
+}
+
+a, a:visited {
+  color: #2aa198;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+  color: #859900;
+}
+
+a:active {
+  color: #586e75;
+}
+
+a.spoiler {
+  background-color: #859900;
+  color: #fdf6e3;
+  font-weight: 800;
+  padding: 0 7px 0 7px;
+}
+
+a:hover.spoiler, a:active.spoiler {
+  background-color: #b58900;
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 800;
+  color: #586e75;
+}
+
+header .header-content {
+  width: 698px;
+  margin: 0 auto 0 auto;
+  background: #eee8d5;
+  text-align: center;
+  border: 1px solid #93a1a1;
+  border-top: 0;
+}
+
+footer .footer-content {
+  width: 660px;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+  background-color: #eee8d5;
+}
+
+.header-spacer {
+  height: 100px;
+}
+
+.entry-heading, .entry  {
+  margin: 0 auto 0 auto;
+}
+
+.entry-heading {
+  width: 660px;
+  background-color: #eee8d5;
+  line-height: 30px;
+  padding: 20px 20px 10px 20px;
+}
+
+.entry {
+  width: 700px;
+}
+
+.entry h4 {
+  margin-bottom: -7px;
+  margin-top: 10px;
+}
+
+.entry img {
+  float: left;
+  margin: 15px 15px 15px 0;
+}
